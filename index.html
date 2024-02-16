@@ -6,51 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
     <title>Matemáticas 2024</title>
     <link rel="shortcut icon" href="assets/escudo.ico">
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="./assets/escudo-iedtcpq.png" alt="logo" width="40" height="40">
-        </a>
-      </div>
-    </nav>
-
-    <div class="container">
-      <h1 class="text-primary">¡Bienvenidos!</h1>
-      <h2 class="mb-2 display-4">Colegio Técnico Comercial Puente</h2>
-      <h3 class="my-4">MATEMÁTICAS 2024</h3>
+    <div class="d-flex flex-column justify-content-between h-screen">
+      <header>
+        <nav class="navbar navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/escudo-iedtcpq.png" alt="logo" width="40" height="40">
+            </a>
+          </div>
+        </nav>
+      </header>
       
-      <div class="card" style="width: 18rem;">
-        <div class="card-header fw-bolder">
-          Páginas de la clase Thatquiz
+      <main class="container flex-fill">
+        <h1 class="text-primary">¡Bienvenidos!</h1>
+        <h2 class="my-4 display-5">Colegio Técnico Comercial Puente</h2>
+
+        <div class="row">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">En este espacio compartiremos algunos recursos y actividades para desarrollar en la asignatura de Matemáticas para el año lectivo 2024, está dirigido a mis estudiantes de la <span class="fw-semibold">Institución Educativa Departamental Rural Colegio Técnico Comercial de Puente Quetame</span>.</p>
+            </div>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <a href="https://www.thatquiz.org/es/classpage?01c0347bdef9e51">Sexto A</a>
-          </li>
-          <li class="list-group-item">
-            <a href="https://www.thatquiz.org/es/classpage?01c13489abe9e5b">Sexto B</a>
-          </li>
-          <li class="list-group-item">
-            <a href="https://www.thatquiz.org/es/classpage?01c124789ad9e50">Séptimo A</a>
-          </li>
-          <li class="list-group-item">
-            <a href="https://www.thatquiz.org/es/classpage?01c3458abcf9e52">Octavo A</a>
-          </li>
-        </ul>
-      </div>
 
+        <h3 class="my-4">MATEMÁTICAS 2024</h3>
+        
+        <div class="card" style="width: 18rem;">
+          <div class="card-header fw-bolder">
+            Páginas de la clase Thatquiz
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a href="https://www.thatquiz.org/es/classpage?01c0347bdef9e51">Sexto A</a>
+            </li>
+            <li class="list-group-item">
+              <a href="https://www.thatquiz.org/es/classpage?01c13489abe9e5b">Sexto B</a>
+            </li>
+            <li class="list-group-item">
+              <a href="https://www.thatquiz.org/es/classpage?01c124789ad9e50">Séptimo A</a>
+            </li>
+            <li class="list-group-item">
+              <a href="https://www.thatquiz.org/es/classpage?01c3458abcf9e52">Octavo A</a>
+            </li>
+          </ul>
+        </div>
+      </main>
 
-      <p class="bg-light mt-4 p-4">
-        © Luis Antonio Parrado - <span class="fst-italic">Docente matemáticas</span>
-      </p>
-      <p><span class="fs-bolder">WhatsApp:</span> 3108076102</p>
+      <footer class="container-fluid bg-light mt-4">
+        <div class="py-4 container d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2">
+          <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+            <span>© Luis Antonio Parrado</span>
+            <span class="d-none d-sm-block">-</span>
+            <span class="fst-italic">Docente matemáticas</span>
+          </div>
+          <a class="d-inline-flex align-items-center gap-2" href="https://api.whatsapp.com/send?phone=573108076102&text=Buenos%20dias%20profesor%20Luis,%20mi%20nombre%20es">
+            <div>
+              <svg style="height: 30px;fill: #25D366;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M373.295,307.064c-6.37,-3.188 -37.687,-18.596 -43.526,-20.724c-5.838,-2.126 -10.084,-3.187 -14.331,3.188c-4.246,6.376 -16.454,20.725 -20.17,24.976c-3.715,4.251 -7.431,4.785 -13.8,1.594c-6.37,-3.187 -26.895,-9.913 -51.225,-31.616c-18.935,-16.89 -31.72,-37.749 -35.435,-44.126c-3.716,-6.377 -0.397,-9.824 2.792,-13c2.867,-2.854 6.371,-7.44 9.555,-11.16c3.186,-3.718 4.247,-6.377 6.37,-10.626c2.123,-4.252 1.062,-7.971 -0.532,-11.159c-1.591,-3.188 -14.33,-34.542 -19.638,-47.298c-5.171,-12.419 -10.422,-10.737 -14.332,-10.934c-3.711,-0.184 -7.963,-0.223 -12.208,-0.223c-4.246,0 -11.148,1.594 -16.987,7.969c-5.838,6.377 -22.293,21.789 -22.293,53.14c0,31.355 22.824,61.642 26.009,65.894c3.185,4.252 44.916,68.59 108.816,96.181c15.196,6.564 27.062,10.483 36.312,13.418c15.259,4.849 29.145,4.165 40.121,2.524c12.238,-1.827 37.686,-15.408 42.995,-30.286c5.307,-14.882 5.307,-27.635 3.715,-30.292c-1.592,-2.657 -5.838,-4.251 -12.208,-7.44m-116.224,158.693l-0.086,0c-38.022,-0.015 -75.313,-10.23 -107.845,-29.535l-7.738,-4.592l-80.194,21.037l21.405,-78.19l-5.037,-8.017c-21.211,-33.735 -32.414,-72.726 -32.397,-112.763c0.047,-116.825 95.1,-211.87 211.976,-211.87c56.595,0.019 109.795,22.088 149.801,62.139c40.005,40.05 62.023,93.286 62.001,149.902c-0.048,116.834 -95.1,211.889 -211.886,211.889m180.332,-392.224c-48.131,-48.186 -112.138,-74.735 -180.335,-74.763c-140.514,0 -254.875,114.354 -254.932,254.911c-0.018,44.932 11.72,88.786 34.03,127.448l-36.166,132.102l135.141,-35.45c37.236,20.31 79.159,31.015 121.826,31.029l0.105,0c140.499,0 254.87,-114.366 254.928,-254.925c0.026,-68.117 -26.467,-132.166 -74.597,-180.352" id="WhatsApp-Logo"/></svg>
+            </div>
+            <div class="fw-bolder">
+              3108076102
+            </div>
+          </a>
+        </div>
+      </footer>
     </div>
     
     <!-- Optional JavaScript; choose one of the two! -->
