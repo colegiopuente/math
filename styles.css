@@ -1,3 +1,8 @@
 .h-screen {
   height: 100vh;
 }
+
+.rounded-corners > :last-child {
+  border-bottom-left-radius: var(--bs-card-inner-border-radius);
+  border-bottom-right-radius: var(--bs-card-inner-border-radius);
+}
