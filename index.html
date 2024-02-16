@@ -28,34 +28,84 @@
         <h1 class="text-primary">¡Bienvenidos!</h1>
         <h2 class="my-4 display-5">Colegio Técnico Comercial Puente</h2>
 
-        <div class="row">
-          <div class="card">
-            <div class="card-body">
-              <p class="card-text">En este espacio compartiremos algunos recursos y actividades para desarrollar en la asignatura de Matemáticas para el año lectivo 2024, está dirigido a mis estudiantes de la <span class="fw-semibold">Institución Educativa Departamental Rural Colegio Técnico Comercial de Puente Quetame</span>.</p>
-            </div>
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">En este espacio compartiremos algunos recursos y actividades para desarrollar en la asignatura de Matemáticas para el año lectivo 2024, está dirigido a mis estudiantes de la <span class="fw-semibold">Institución Educativa Departamental Rural Colegio Técnico Comercial de Puente Quetame</span>.</p>
           </div>
         </div>
 
         <h3 class="my-4">MATEMÁTICAS 2024</h3>
-        
-        <div class="card" style="width: 18rem;">
-          <div class="card-header fw-bolder">
-            Páginas de la clase Thatquiz
+
+        <h4 id="entrenamiento">Entrenamiento</h4>
+
+        <div class="card mb-2">
+          <div class="row g-0">
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1 d-flex mt-2 mt-sm-0">
+              <img src="assets/thatquiz-logo.png" class="m-auto d-block" alt="Thatquiz-logo">
+            </div>
+            <div class="col-sm-8 col-md-9 col-lg-10 col-xl-11">
+              <div class="card-body">
+                <p class="card-text">Consiste en la solución de quizzes a través de la plataforma <a href="https://www.thatquiz.org/es">Thatquiz</a>, resolverlos ayudará a fortalecer las competencias numéricas y geométricas y a evaluar para mejorar día a día.</p>
+                <p class="card-text">Al final de cada <span class="fst-italic">quiz</span> se obtendrá la puntuación y cuales respuestas fueron erróneas para tener la oportunidad de mejorar.</p>
+              </div>
+            </div>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <a href="https://www.thatquiz.org/es/classpage?01c0347bdef9e51">Sexto A</a>
-            </li>
-            <li class="list-group-item">
-              <a href="https://www.thatquiz.org/es/classpage?01c13489abe9e5b">Sexto B</a>
-            </li>
-            <li class="list-group-item">
-              <a href="https://www.thatquiz.org/es/classpage?01c124789ad9e50">Séptimo A</a>
-            </li>
-            <li class="list-group-item">
-              <a href="https://www.thatquiz.org/es/classpage?01c3458abcf9e52">Octavo A</a>
-            </li>
-          </ul>
+        </div>
+
+        <p>Existen dos formas de acceder:</p>
+        <ul>
+          <li>Desde un navegador usando el link de la clase. Selecciónate y digita tu contraseña que inicialmente será tu <span class="fst-italic">documento de identidad</span> sin espacios.</li>
+          <li>Descarga la app y pide al docente tu código QR de ingreso.</li>
+        </ul>
+        
+        <div class="card" style="width: 20rem;">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="class-pages" data-bs-toggle="tab" data-bs-target="#class-pages-pane" role="tab" aria-controls="class-pages-pane" aria-selected="true">Páginas de clase</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="download-links" data-bs-toggle="tab" data-bs-target="#download-links-pane" role="tab" aria-controls="download-links-pane" aria-selected="false">Descarga tu app</button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-content">
+            <!-- Páginas de la clase -->
+            <ul class="list-group list-group-flush tab-pane fade show active" id="class-pages-pane" role="tabpanel" aria-labelledby="class-pages" tabindex="0">
+              <li class="list-group-item">
+                <a href="https://www.thatquiz.org/es/classpage?01c0347bdef9e51">Sexto A</a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://www.thatquiz.org/es/classpage?01c13489abe9e5b">Sexto B</a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://www.thatquiz.org/es/classpage?01c124789ad9e50">Séptimo A</a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://www.thatquiz.org/es/classpage?01c3458abcf9e52">Octavo A</a>
+              </li>
+            </ul>
+
+            <!-- Links de descarga de la app-->
+            <div class="card-body tab-pane fade" id="download-links-pane" role="tabpanel" aria-labelledby="download-links" tabindex="0">
+              <div class="row gap-2">
+                <div class="col">
+                  <a href="https://play.google.com/store/apps/details?id=org.thatquiz.tqmobclient">
+                    <div>Tengo android</div>
+                    <img class="img-fluid" src="assets/google-play-icon.png" alt="Google Play Store">
+                  </a>
+                </div>
+
+                <div class="col">
+                  <a href="https://itunes.apple.com/us/app/thatquiz/id1183992776?ls=1&mt=8">
+                    <div>Tengo iPhone</div>
+                    <img class="img-fluid" src="assets/apple-store-icon.png" alt="Apple Store">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
 
